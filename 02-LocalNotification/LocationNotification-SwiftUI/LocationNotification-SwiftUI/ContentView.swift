@@ -33,7 +33,7 @@ struct LocalNotification: View {
                         self.showFootnote.toggle()
                         self.notificationManager.sendNotification(title: "Hurray!", subtitle: nil, body: "If you see this text, launching the local notification worked!", launchIn: 5, identifier: "notificationDemo")
                         
-//                        self.notificationManager.sendNotification(title: "Hurray!", subtitle: nil, body: "If you see this text, launching the local notification worked!", launchIn: 10, identifier: "cedbahirw")
+                        self.notificationManager.sendNotification(title: "Hurray!", subtitle: nil, body: "If you see this text, launching the local notification worked!", launchIn: 10, identifier: "cedbahirw")
                     }
                 }) {
                     Text("Launch Local Notification 🚀")

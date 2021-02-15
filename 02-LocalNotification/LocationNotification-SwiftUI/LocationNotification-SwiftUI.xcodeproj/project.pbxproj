@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		820E7AF225DB2352005A4E67 /* moi.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 820E7AEF25DB2352005A4E67 /* moi.jpg */; };
+		820E7AF325DB2352005A4E67 /* machineSound.wav in Resources */ = {isa = PBXBuildFile; fileRef = 820E7AF025DB2352005A4E67 /* machineSound.wav */; };
+		820E7AF425DB2352005A4E67 /* sms.wav in Resources */ = {isa = PBXBuildFile; fileRef = 820E7AF125DB2352005A4E67 /* sms.wav */; };
 		82C7911625DB1F5A00EF5062 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C7911525DB1F5A00EF5062 /* AppDelegate.swift */; };
 		82C7911825DB1F5A00EF5062 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C7911725DB1F5A00EF5062 /* SceneDelegate.swift */; };
 		82C7911A25DB1F5A00EF5062 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82C7911925DB1F5A00EF5062 /* ContentView.swift */; };
@@ -17,6 +20,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		820E7AEF25DB2352005A4E67 /* moi.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = moi.jpg; sourceTree = "<group>"; };
+		820E7AF025DB2352005A4E67 /* machineSound.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = machineSound.wav; sourceTree = "<group>"; };
+		820E7AF125DB2352005A4E67 /* sms.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = sms.wav; sourceTree = "<group>"; };
 		82C7911225DB1F5A00EF5062 /* LocationNotification-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LocationNotification-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		82C7911525DB1F5A00EF5062 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		82C7911725DB1F5A00EF5062 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,6 +70,9 @@
 				82C7912A25DB1F9300EF5062 /* NotificationManager.swift */,
 				82C7911B25DB1F5B00EF5062 /* Assets.xcassets */,
 				82C7912025DB1F5B00EF5062 /* LaunchScreen.storyboard */,
+				820E7AF025DB2352005A4E67 /* machineSound.wav */,
+				820E7AEF25DB2352005A4E67 /* moi.jpg */,
+				820E7AF125DB2352005A4E67 /* sms.wav */,
 				82C7912325DB1F5B00EF5062 /* Info.plist */,
 				82C7911D25DB1F5B00EF5062 /* Preview Content */,
 			);
@@ -135,9 +144,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				820E7AF425DB2352005A4E67 /* sms.wav in Resources */,
+				820E7AF325DB2352005A4E67 /* machineSound.wav in Resources */,
 				82C7912225DB1F5B00EF5062 /* LaunchScreen.storyboard in Resources */,
 				82C7911F25DB1F5B00EF5062 /* Preview Assets.xcassets in Resources */,
 				82C7911C25DB1F5B00EF5062 /* Assets.xcassets in Resources */,
+				820E7AF225DB2352005A4E67 /* moi.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
