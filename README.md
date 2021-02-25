@@ -1,7 +1,6 @@
 # toolChain
 
-## A Container for quick functions, extensions, expressions, SwiftUI views, and UIKit view controllers, classes, and structs
+## A Container for quick functions, extensions, expressions, SwiftUI views, and UIKit view and controllers, classes and structs, etc
 
-Most of this content is intented to improve speed during development by avoiding searching for the same thing over the internet everytime we need it.
-Hence, many of the extensions and regular expressions can be found on others sites, blogs like stackOverFlow.
-Don't take what is here as ultimate truth, do your research to fit your needs.
+Most of this content intends to improve speed during development by reducing the search for commonly used things (functions, extensions, etc ) over and over on the internet every time we need it. 
+Hence,  regular expressions can be found on other sites, blogs like StackOverflow. Don't take what is here as an ultimate truth, do your research to fit your needs.
