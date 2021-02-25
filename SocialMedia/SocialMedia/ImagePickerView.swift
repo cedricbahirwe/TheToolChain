@@ -8,6 +8,7 @@
 import Foundation
 import SwiftUI
 import UIKit
+import Photos
 
 struct ImagePicker: UIViewControllerRepresentable {
     
@@ -51,9 +52,19 @@ struct ImagePicker: UIViewControllerRepresentable {
             if let uiImage = info[.originalImage] as? UIImage {
                 parent.image = uiImage
             }
+           
             parent.onFinishPicking()
 
             parent.presentationMode.wrappedValue.dismiss()
+            
+            if let imageURL = info[UIImagePickerController.InfoKey.referenceURL] as? URL {
+                    let result = PHAsset.fetchAssets(withALAssetURLs: [imageURL], options: nil)
+                    let asset = result.firstObject
+                    print(asset?.value(forKey: "filename"))
+
+                }
+
+
         }
     }
     
