@@ -85,7 +85,6 @@ class ViewController: UIViewController {
     
     
     @IBAction func didSave(_ sender: Any) {
-//        save()
         let alert = UIAlertController(title: "Change Display name", message: "Do you want to change your displayed name: \(userNameLabel.text!)"  , preferredStyle: .alert)
         
         let updateName = UIAlertAction(title: "Update", style: .default) { [weak alert] _ in
