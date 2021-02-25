@@ -48,7 +48,5 @@
 	</array>
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>Social Media would like to save photos on your photo library</string>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Social Media would like to access your photos</string>
 </dict>
 </plist>

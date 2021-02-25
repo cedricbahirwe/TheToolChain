@@ -58,9 +58,6 @@ struct ContentView: View {
         }
         
         let vc = UIActivityViewController(activityItems: [image], applicationActivities: [])
-        //        vc.popoverPresentationController?.barButtonItem = navigationItem.rightBarButtonItem
-        //        present(vc, animated: true)
-        
         UIApplication.shared.windows.first?.rootViewController?.present(vc, animated: true, completion: nil)
         
     }
